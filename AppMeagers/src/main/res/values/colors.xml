@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0A91E5</color>
+    <color name="colorPrimaryDark">#0A91E5</color>
+    <color name="colorAccent">#0A91E5</color>
+    <color name="btn_true">#0A91E5</color>
+    <color name="btn_false">#a6a6a6</color>
+    <color name="btn_sumbit_false">#003B8A</color>
+    <color name="err_btn_true">#797979</color>
+    <color name="err_btn_false">#a2a2a2</color>
+    <color name="recomm_true">#ffffff</color>
+    <color name="recomm_false">#c4c4c4</color>
+    <color name="me_bg">#EEEEEE</color>
+    <color name="me_tv_color">#1E90D2</color>
+    <color name="weibo_tv_back">#565656</color>
+</resources>

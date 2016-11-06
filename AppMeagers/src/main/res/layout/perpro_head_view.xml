@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:id="@+id/sweep_head_ll"
+              android:background="@color/weibo_tv_back"
+              android:layout_height="wrap_content">
+        <com.thinkcool.circletextimageview.CircleTextImageView
+            android:layout_marginTop="20dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user_photo"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:citv_border_width="2dp"
+            android:src="@mipmap/ic_launcher"
+            app:citv_border_color="@color/me_bg"/>
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:drawablePadding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="何以笙箫默"
+            android:id="@+id/tv_nick"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:drawableRight="@mipmap/myinfo_headerview_male"/>
+        <RelativeLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/btn_sumbit_false"
+                android:layout_width="wrap_content"
+                android:textSize="15dp"
+                android:id="@+id/tv_about"
+                android:layout_height="wrap_content"
+                android:text="关注 306"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_alignParentRight="true"
+                android:textColor="@color/btn_sumbit_false"
+                android:layout_width="wrap_content"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_fans"
+                android:text="粉丝 306"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="简介: 你好"
+            android:id="@+id/tv_biref"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/white"/>
+</LinearLayout>

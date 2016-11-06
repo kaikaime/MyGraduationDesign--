@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left|center_vertical"
+            android:id="@+id/index_iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/navbar_icon_search_nor"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="朋友微博"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/index_iv_writer"
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/navbar_icon_write_nor"/>
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>

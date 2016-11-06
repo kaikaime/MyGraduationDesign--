@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.lvkaixue.appmeager.customview.IndexListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/home_color"
+        style="@style/Base.AlertDialog.AppCompat.Light"
+        android:scrollbars="none"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarSize="20dp"
+        android:id="@+id/recomm_lv"/>
+</LinearLayout>

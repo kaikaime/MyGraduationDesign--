@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@mipmap/wb_icon_tabbar_at_hl"/>
+    <item android:state_selected="false" android:drawable="@mipmap/wb_icon_tabbar_at_nor"/>
+    <item  android:drawable="@mipmap/wb_icon_tabbar_main_nor"/>
+</selector>

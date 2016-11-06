@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lvkaixue.appmeager.activity.IntransitActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left|center_vertical"
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:text="取消"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="转发微博"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginRight="10dp"
+            android:id="@+id/tv_send"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:text="发送"
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/et_content"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+</LinearLayout>

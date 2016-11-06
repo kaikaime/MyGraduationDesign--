@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@drawable/photo_item_shape"
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"
+        android:layout_height="match_parent">
+        <com.example.lvkaixue.appmeager.customview.ImageCustomView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:id="@+id/image_cu"
+            android:padding="2dp"
+            app:picRatio="0.9"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/photo"/>
+        </com.example.lvkaixue.appmeager.customview.ImageCustomView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的密码"
+            android:textSize="12dp"
+            android:layout_below="@id/image_cu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:id="@+id/photo_name"/>
+    </RelativeLayout>
+
+</RelativeLayout>

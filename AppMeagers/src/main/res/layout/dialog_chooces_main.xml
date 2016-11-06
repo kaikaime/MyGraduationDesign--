@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="10dp"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/btn_false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="本地照片"
+        android:background="@drawable/pic_categ_selector"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/get_location_pic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="照相机照片"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:background="@drawable/pic_categ_selector"
+        android:textColor="@android:color/black"
+        android:id="@+id/get_camrea_pic"/>
+</LinearLayout>
